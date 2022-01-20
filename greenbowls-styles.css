@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+:root {
+  --main-color: #7ac943;
+  --secondary-color: #ffae2e;
+  --text-color: #812727;
+}
+
+.page {
+  background-color: white;
+  font-family: "Josefin Sans", sans-serif !important;
+  color: var(--text-color);
+}
+
+.title,
+.pageHeadlines,
+.formHeadlines {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24pt;
+  font-weight: bold;
+  font-style: normal;
+  color: var(--main-color);
+  text-align: center;
+}
+
+.instructions {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 11pt;
+  font-weight: normal;
+  font-style: normal;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.instructionalText {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 11pt;
+  color: var(--text-color);
+  text-align: center;
+}
+
+#signUpButton,
+#loginSubmitButton,
+.login {
+  height: 30px;
+  background: var(--main-color) !important;
+  /*   -webkit-border-radius: 0;  */
+  border: none !important;
+  color: white !important;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.formFields,
+.formField {
+  width: 150px !important;
+  height: 25px;
+  padding: 3px 3px 3px 8px !important;
+  font-family: "arial", sans-serif;
+  font-size: 16px;
+  color: #555555;
+}
+
+#loginTitle {
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--text-color) !important;
+  text-align: center;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.fldLabel {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 11pt;
+  font-weight: normal;
+  font-style: normal;
+  text-align: right;
+  width: 50%;
+}
+
+.fldData {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 11pt;
+  font-weight: normal;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+  width: 230px;
+}
+
+.BPName {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 11pt;
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+}
+
+.BPBalance {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 11pt;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+}
+
+#forgotPasswordLink,
+#forgotPasswordInstructionTxt {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+}
+
+.homelink {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 9pt;
+  font-weight: bold;
+  font-style: normal;
+  color: var(--main-color);
+  text-align: center;
+  text-decoration: underline;
+}
+
+.grpbox {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 11pt;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+}
+
+.asterisk {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 11pt;
+  font-weight: normal;
+  font-style: normal;
+  color: rgb(220, 0, 0);
+  text-align: left;
+}
+
+.login {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 11pt;
+  font-weight: bold;
+  font-style: normal;
+  color: var(--main-color);
+  text-align: center;
+}
+
+.Txn_both {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.Txn_one {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18pt;
+  font-weight: bold;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.eCardBalance_both {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+.eCardBalance_one {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+.TxnValues_both {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+}
+
+.TxnValues_one {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+}
+
+.EditProfile {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
