@@ -4,12 +4,48 @@
   --main-color: #7ac943;
   --secondary-color: #ffae2e;
   --text-color: #812727;
+  --logo-color: #1a9b48;
 }
 
 .page {
   background-color: white;
+  font-family: "Arial", sans-serif !important;
+  color: var(--secondary-color);
+}
+
+.mainNavLink {
+  font-size: 12pt;
+  font-weight: normal;
+  font-style: normal;
+  clear: none;
+  display: inline;
+}
+
+.secondNavLink {
+  font-size: 12pt;
+  font-weight: normal;
+  font-style: normal;
+  clear: none;
+  display: inline;
+}
+
+h1.standingsHeadline {
   font-family: "Josefin Sans", sans-serif !important;
-  color: var(--text-color);
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(150, 150, 150);
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+h2.standingsHeadline {
+  font-family: "Josefin Sans", sans-serif !important;
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--logo-color);
+  margin: 0px;
+  padding: 0px;
 }
 
 .title,
@@ -43,7 +79,7 @@
 #loginSubmitButton,
 .login {
   height: 30px;
-  background: var(--main-color) !important;
+  background: var(--logo-color) !important;
   /*   -webkit-border-radius: 0;  */
   border: none !important;
   color: white !important;
